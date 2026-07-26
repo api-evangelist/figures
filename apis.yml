@@ -1,8 +1,28 @@
 aid: figures
 name: Figures
-description: Figures is a company surfaced as a portfolio company of point-nine, seedcamp and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Figures is a European compensation management and pay transparency platform
+  that helps HR teams and managers make strategic salary decisions using
+  real-time market data. It combines salary benchmarking across 3.5M+
+  datapoints, dynamic salary bands, collaborative compensation review
+  workflows, and pay equity analysis, with modules built for the EU Pay
+  Transparency Directive. Figures connects to 30+ HRIS and performance-review
+  systems to enrich internal pay data, and is used by organizations including
+  KPMG, EY, Qonto, and TotalEnergies. It is backed by Point Nine and Seedcamp.
+  This profile was added to the API Evangelist network as a portfolio lead and
+  enriched by the pipeline; Figures does not publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67d3ea89af67f1aadd178eb2/67d3f689b192456f235a756f_figures_logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/figures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Compensation
+- Pay Transparency
+- Salary Benchmarking
+- Pay Equity
+- Salary Bands
+- Human Resources
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://figures.hr
+- type: Login
+  url: https://app.figures.hr/sign-in
+- type: Blog
+  url: https://figures.hr/blog
+- type: TermsOfService
+  url: https://figures.hr/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://figures.hr/legal/website-privacy-policy
+- type: TrustCenter
+  url: security/figures-trust-center.yml
+- type: Compliance
+  url: https://trust.figures.hr/
+- type: DomainSecurity
+  url: security/figures-domain-security.yml
+- type: LLMsTxt
+  url: llms/figures-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
