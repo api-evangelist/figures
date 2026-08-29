@@ -11,6 +11,17 @@ description: >-
   KPMG, EY, Qonto, and TotalEnergies. It is backed by Point Nine and Seedcamp.
   This profile was added to the API Evangelist network as a portfolio lead and
   enriched by the pipeline; Figures does not publish a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
